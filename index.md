@@ -5,6 +5,7 @@ layout: default
 
 
 
+
 ### Interesting question 
 
 With the increasing world population, the amount of food requires to feed the population inevitably increases too. This means that livestock cultivation needs to keep up with the demand, and increasing farming efficiency is the priority in the agricultural field. There's a need for new technology in the field to help increase the production efficiency of livestock. Many livestock farmers rely on traditional methods like manual auditing by workers and tracking the number of livestock they have. This poses many challenges as humans are prone to making errors, with the number of livestock in a farm reaching thousand of hundreds, the increase the complexity of livestock auditing. The scientific goal is to achieve the auditing of livestock numbers with a non-invasive, cost-effective, easy implementation, and maintainable method in auditing livestock numbers. This project's scope is to train a computer vision-based deep learning model for the classification of livestock in a farm setting and auditing the number. As with most machine learning data, having a large amount of data might increase the model's performance.
