@@ -36,7 +36,7 @@ Once the model has been trained, a separate set of videos are used to run infere
 
 Class concept: 
 
-1)It still follows the train, valid, and test split of data similar to training most of the models we learned in class.
+1) It still follows the train, valid, and test split of data similar to training most of the models we learned in class.
 
 2) False Positive is known as a Type 1 error where the model thinks there's an object in the area, but there's nothing. A False Negative is known as a Type 2 error where the model didn't detect the existence of an object. 
 
@@ -55,22 +55,36 @@ An Auditing script provided a final number of livestock in the video data. The f
 
 Ground Truth VS Algorithm Number
 
-| head1        | Ground Truth | Algorithm Number |
+| Video Data   | Ground Truth | Algorithm Number |
 |:-------------|:-------------|:-----------------|
-| 80           | 80           | 77               |
-| 124          | 124          | 122              |
-| 125          | 125          | 123              |
-| 106          | 106          | 102              |
-| 105          | 105          | 104              |
+| V1           | 80           | 77               |
+| V2           | 124          | 122              |
+| V2           | 125          | 123              |
+| V3           | 106          | 102              |
+| V5           | 105          | 104              |
 
 A final data with the ground truth number and number from the script are used to plot in a scatter plot with a regression line, and an OLS regression is run to see how accurate each algorithm number is relative to the ground truth. For the plot, if the counts are mostly accurate, all the dots should be close to the line. The R-squared provided by the OLS gives a good indication of the regression line fitting the data. A regression benefits from examining the correlation of Ground Truth and Algorithm number as it can show the researcher a trend. If the sample size increase, will the algorithm's accuracy drop? Using a regression model opens up an opportunity to examine what other factors affect the number's accuracy, like the light source, background, livestock body size, color, etc.. All these could be a variable to help researchers identify which factors have the most effect in contributing to an inaccurate number when these data became available.
 
-Class Concept: Understanding the correlation between variables and Utilising Linear regression to evaluate how accurate the number is.
+Class Concept: Understanding the correlation between variables and Utilising Linear regression to evaluate how accurate the number is. This part of the analysis are reproducible, the table are included in a Github Repository which is directly linked in the submitted NoteBook, the first line contains a Token Key that allow access to the Private repositories.
 
 * * *
 
 ### Communciate and visualize the results
 
 The correlation plot of ground truth shows the effectiveness of utilizing a non-invasive method to audit the livestock number, which allowed further study into the area. I learned that using a model regression could benefit future research to identify what factors affect an inaccurate number when data are available 
+
+* * *
+
+### Final Discussion
+
+1) what from the class did you use in this project and why might it be useful for research projects like this?  What are the advantages and disadvantages?  
+
+
+2) Were there any assumptions or transformations needed? 
+   
+   m
+
+#) How much does your analysis attain the FAIR principles? For example, what is the ability to automate and reproduce your analysis (if the file input were to change, could this analysis be reproduced and how easily?)  - how will someone else reproduce this analysis?  Is the data stored somewhere?  Can I reproduce the figures easily?
+
 
 
